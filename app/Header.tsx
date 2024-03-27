@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <div className='flex space-x-8 items-center'>
             <span className='inline-block text-center rounded-lg w-[130px] h-[40px] py-2 px-5 bg-[#1A0AD7] text-white'>Get started</span>
-            <span className='inline-block text-center rounded-lg w-[130px] h-[40px] py-2 px-5 bg-[#E8E7FE] text-[#1A0AD7]'>Sign In</span>
+            <span className='inline-block text-center rounded-lg border-[#1A0AD7] w-[130px] h-[40px] py-2 px-5 bg-[#E8E7FE] text-[#1A0AD7]'>Sign In</span>
         </div>
     </nav>
   )
