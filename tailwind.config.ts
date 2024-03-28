@@ -16,6 +16,7 @@ const config: Config = {
       },
       padding:{
         "4.5": "20px, 56px",
+        "5.5": "33px 40px"
       },
       boxShadow:{
         "ml": " 0 4px 4px 0px rgba(0,0,0,0.25)"
