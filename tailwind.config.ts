@@ -19,7 +19,7 @@ const config: Config = {
         "5.5": "33px 40px"
       },
       boxShadow:{
-        "ml": " 0 4px 4px 0px rgba(0,0,0,0.25)"
+        "ml": " 1px 2px 2px -1px rgba(0,0,0,0.25)"
       }
     },
   },

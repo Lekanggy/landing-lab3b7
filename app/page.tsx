@@ -6,15 +6,17 @@ import WriteDoc from "./WriteDoc";
 import DocUse from "./DocUse";
 import WhyDoc from "./WhyDoc";
 import Footer from "./Footer";
+import DocDescription from "./DocDescription";
 
 export default function Home() {
   return (
-    <main className="bg-red">
+    <main className="grid">
      <Header/>
      <Describe/>
      <Action/>
      <WriteDoc/>
      <DocUse/>
+     <DocDescription/>
      <WhyDoc/>
      <Footer/>
     </main>
