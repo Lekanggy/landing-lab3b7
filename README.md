@@ -13,6 +13,7 @@ pnpm dev
 # or
 bun dev
 ```
+`Note`: Make sure your node version is 18.17.0  and above.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
