@@ -10,20 +10,34 @@ const DocDescription = () => {
             <span className="inline-flex text-[#DBD8FD] text-2xl font-bold">
                 Help your team get better
             </span>
-            <h2 className="font-black w-[500px] leading-[80px] text-[#FCFCFC] text-6xl">
+            <h2 className="font-black w-[500px] leading-[80px] text-[#FCFCFC] text-6xl max-[1024px]:text-[50px]">
                 What document would you like to write?
             </h2>
             <span className="inline-flex text-2xl font-medium text-[#DBD8FD]">
                 Just enter your text in the prompt and start in seconds...
             </span>
             <div className="flex flex-col space-y-3 pt-8">
-                    <div className="flex justify-between items-center w-[300px] border-[#FCFCFC] border rounded-[30px] bg-[#5D4EF8] py-4 px-10">
-                        <Image src={Arrow} alt="icon" className="w-[40px]"/>
-                        <span className="inline-flex text-[#FCFCFC] font-bold text-[20px]">Write Letter</span>
-                    </div>
+                <div className="flex justify-between items-center w-[300px] border-[#FCFCFC] border rounded-[30px] bg-[#5D4EF8] py-4 px-10">
+                    <Image src={Arrow} alt="icon" className="w-[40px]"/>
+                    <span className="inline-flex text-[#FCFCFC] font-bold text-[20px]">
+                        Write Letter
+                    </span>
+                </div>
+                <div className="flex justify-between items-center w-[300px] border-[#FCFCFC] border rounded-[30px] bg-[#5D4EF8] py-4 px-10">
+                    <Image src={Arrow} alt="icon" className="w-[40px]"/>
+                    <span className="inline-flex text-[#FCFCFC] font-bold text-[20px]">
+                        Write Letter
+                    </span>
+                </div>
+                <div className="flex justify-between items-center w-[300px] border-[#FCFCFC] border rounded-[30px] bg-[#5D4EF8] py-4 px-10">
+                    <Image src={Arrow} alt="icon" className="w-[40px]"/>
+                    <span className="inline-flex text-[#FCFCFC] font-bold text-[20px]">
+                        Write Letter
+                    </span>
+                </div>
             </div>
         </div>
-        <div className="flex flex-col space-y-5 px-10 pt-10">
+        <div className="flex flex-col space-y-5 px-10 pt-10 bg-[#F6F5FF]">
             <div className="flex flex-col space-y-5">
                 <Image src={Log1} alt="" className="w-[100px]"/>
                 <span className="inline-flex w-[450px] text-3xl font-bold text-[#100F0F]">

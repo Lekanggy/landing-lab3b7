@@ -4,8 +4,8 @@ import Logo from '../public/log2.png'
 
 const Header = () => {
   return (
-    <nav className='flex justify-between items-center py-3 px-8 h-[80px] bg-white shadow-[0px_4px_9px_0px_#0000000A]'>
-        <div className='flex space-x-8 items-center'>
+    <nav className='flex justify-between items-center py-3 px-8 max-[768px]:px-6 h-[80px] bg-white shadow-nav max-[768px]:justify-around'>
+        <div className='flex space-x-8 items-center max-[640px]:space-x-2'>
            <Image src={Logo} alt='logo' className='w-[132px] h-[34px] object-cover'/>
            <span className='text-sm font-normal text-[#0A0A0A]'>Support</span>
            <span className='text-sm font-normal text-[#0A0A0A]'>Pricing</span>

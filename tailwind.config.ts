@@ -19,7 +19,8 @@ const config: Config = {
         "5.5": "33px 40px"
       },
       boxShadow:{
-        "ml": " 1px 2px 2px -1px rgba(0,0,0,0.25)"
+        "ml": " 1px 2px 2px -1px rgba(0,0,0,0.25)",
+        "nav": "0px 4px 9px 0px #000",
       }
     },
   },

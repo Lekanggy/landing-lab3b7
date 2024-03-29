@@ -8,9 +8,10 @@ import WhyDoc from "./WhyDoc";
 import Footer from "./Footer";
 import DocDescription from "./DocDescription";
 
+
 export default function Home() {
   return (
-    <main className="grid">
+    <main className="grid w-full">
      <Header/>
      <Describe/>
      <Action/>
@@ -18,6 +19,7 @@ export default function Home() {
      <DocUse/>
      <DocDescription/>
      <WhyDoc/>
+   
      <Footer/>
     </main>
   );

@@ -12,8 +12,8 @@ import { GrInstagram } from "react-icons/gr";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col bg-[#0D0C0D] mt-28">
-        <div className="flex items-center justify-between text-white py-20 px-10">
+    <footer className="flex flex-col bg-[#0D0C0D] mt-28 w-full">
+        <div className="flex max-[1024px]:flex-wrap max-[1024px]:space-y-10 items-center justify-between text-white py-20 px-10 max-[1024px]:w-[900px]">
             <div className="flex flex-col justify-start space-y-5 py-4">
                 <span className="inline-flex w-[300px] font-bold text-[40px] leading-[48.5px] text-white">
                     Stay In Touch With Us
@@ -76,7 +76,7 @@ const Footer = () => {
                     <span className="inline-block text-[13px] font-normal pl-1">Terms</span>
                 </div>
             </div>
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3 max-[1024px]:mr-7">
                 <FaLinkedin className='text-white text-lg'/>
                 <LiaFacebookSquare className='text-white text-lg'/>
                 <FiTwitter className='text-white text-lg'/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Action = () => {
   return (
-    <section className="flex justify-between items-center p-10 mx-20 my-20 bg-white rounded-[48px] border-solid border-[#D2CEFD1A] shadow-ml">
+    <section className="flex justify-between items-center p-10 max-[768px]:p-0 mx-20 my-20 bg-white rounded-[48px] border-solid border-[#D2CEFD1A] shadow-ml ">
         <div className="flex flex-col justify-start items-start space-y-3">
             <span className="inline-flex text-left w-[300px] font-bold text-[52px] leading-[60px] text-[#100F0F]">
              Get Started for free
@@ -17,7 +17,7 @@ const Action = () => {
             </div>
         </div>
 
-        <div className="flex flex-col justify-start space-y-6 mb-24 mr-48">
+        <div className="flex flex-col justify-start space-y-6 mb-24 mr-48 max-[1024px]:mr-20">
             <div className="flex space-x-3 items-center">
                 <span className="inline-block rounded-full w-[10px] h-[10px] bg-[#18C718]"></span>
                 <span className="text-lg font-medium text-[ #4B4B4E]">Try Docuhelp Now!</span>
